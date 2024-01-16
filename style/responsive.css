@@ -32,5 +32,19 @@
     .card-box{
         padding: 10px;
     }
+    .news-letter-container{
+        flex-direction: column;
+    }
+    .travel-com{
+        position: relative;
+        left: 168px;
+    }
+    .img-section img{
+        width: 430px;
+        margin: 0 auto;
+    }
+    .news-letter-container{
+        padding: 10px;
+    }
     
 }
