@@ -13,8 +13,12 @@
         font-size: 1.3rem;
 
     }
-    ..banner-container{
-        border: 1px solil black;
+    .banner-container{
+        top: 40px;
+        max-width: 570px;
+        width: 200px;
+        height: 483px;
+        align-items: center;
     }
     .tour-container{
         gap: 5px;
@@ -44,6 +48,9 @@
         margin: 0 auto;
     }
     .news-letter-container{
+        padding: 10px;
+    }
+    .footer{
         padding: 10px;
     }
     

@@ -201,7 +201,7 @@ main{
     justify-content: center;
     
 }
-/* new letter section */
+/* news letter section */
 .news-letter-container{
     display: flex;
     gap: 24px;
@@ -271,4 +271,56 @@ main{
 
 .travel-com h3{
     font-weight: 800;
+}
+
+/* Footer Section */
+
+.footer{
+    max-width: 1280px;
+    height: 507px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+.footer-title img{
+    width: 40px;
+    flex-shrink: 0;
+}
+.footer-title{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-description{
+    padding-top: 15px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    text-align: center;
+    line-height: 26px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+
+.footer hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.footer p{
+    color: #131318;
+    font-family: Mulish;
+    font-weight: 300;
+    margin-top: 30px;
 }
