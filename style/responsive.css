@@ -10,11 +10,10 @@
         gap: 10px;
     }
     .banner-container .banner-title{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
 
     }
     .banner-container{
-        top: 40px;
         max-width: 570px;
         width: 200px;
         height: 483px;
