@@ -21,7 +21,16 @@
         flex-direction: column;
         padding: 20px;
     }
-    .destination-image{
-        grid-template-columns: repeat(1, 1fr);
+    .destination-image img{
+        flex-basis: 400px;
+        width: 80%;
     }
+    .destination-container{
+        max-width: 576px;
+        flex-direction: column;
+    }
+    .card-box{
+        padding: 10px;
+    }
+    
 }

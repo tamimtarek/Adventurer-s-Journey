@@ -101,6 +101,7 @@ main{
 /* Tour Section */
 .tour-container{
     display: flex;
+    justify-content: center;
 }
 .tour-title{
     color: #131318;
@@ -123,6 +124,12 @@ main{
 }
 /* Destination Section */
 
+.destination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .destination-title{
     color: #131318;
     text-align: center;
@@ -131,11 +138,8 @@ main{
     margin-top: 70px;
 }
 .destination-description{
-    width: 643px;
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
     line-height: 26px;
-    margin-left: 300px;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -150,35 +154,49 @@ main{
     font-size: 28px;
     font-weight: 800;
 }
-.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7{
-    display: inline-block;
-    position: relative;
+.card img{
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
 }
-.img-1{
-    bottom: 802px;
-    right: 485px;
+.card{
+    width: 450px;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
 }
-.img-2{
-    left: 249px;
-    bottom: 805px;
+.card-child{
+    text-align: center;
+    margin-top: 70px;
 }
-.img-3{
-    right: 320px;
-    bottom: 484px;
+.card-container-title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 24px;
 }
-.img-4{
-    left: 253px;
-    bottom: 483px;
+.card-container-description{
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-bottom: 24px;
 }
-.img-5{
-    left: 769px;
-    bottom: 489px;
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 32px;
 }
-.img-6{
-    left: 206px;
-    bottom: 167px;
+.card-description{
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
 }
-.img-7{
-    left: 700px;
-    bottom: 169px;
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
 }
